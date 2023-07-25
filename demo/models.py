@@ -8,7 +8,7 @@ class Product(models.Model):
 
 
 class Order(models.Model):
-    products = models.ManyToManyField(Product, related_name='orders')
+    pass
 
 
 class OrderPosition(models.Model):
